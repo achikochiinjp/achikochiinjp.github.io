@@ -6,7 +6,8 @@
         "coords": [
             34.77778,
             135.26389
-        ]
+        ],
+        "hike_date": "2025-01-26"
     },
     {
         "name": "Uma Nose",
@@ -15,7 +16,8 @@
         "coords": [
             34.66572,
             135.11178
-        ]
+        ],
+        "hike_date": "2025-01-12"
     },
     {
         "name": "Fukuchiyama",
@@ -24,16 +26,20 @@
         "coords": [
             34.79977,
             135.36007
-        ]
+        ],
+        "instagram": "https://www.instagram.com/p/DPH6MucEvPI",
+        "hike_date": "2025-09-13"
     },
     {
         "name": "Mount Kongou",
         "name_ja": "金剛山",
-        "prefecture": "Osaka / Nara",
+        "prefecture": "Osaka",
         "coords": [
             34.41944,
             135.67306
-        ]
+        ],
+        "instagram": "https://www.instagram.com/p/DPGpnTBkjV0",
+        "hike_date": "2025-09-21"
     },
     {
         "name": "Takatori",
@@ -42,7 +48,8 @@
         "coords": [
             34.79977,
             135.36007
-        ]
+        ],
+        "hike_date": "2024-12-22"
     },
     {
         "name": "Koya-Kunimi",
@@ -52,7 +59,8 @@
             34.78333,
             135.68333
         ],
-        "instagram": "https://www.instagram.com/p/DPiLC7Dkkd0"
+        "instagram": "https://www.instagram.com/p/DPiLC7Dkkd0",
+        "hike_date": "2025-07-19"
     },
     {
         "name": "Mount Maya",
@@ -61,7 +69,8 @@
         "coords": [
             34.73292,
             135.20444
-        ]
+        ],
+        "hike_date": "2025-02-23"
     },
     {
         "name": "Mount Iwawaki",
@@ -70,34 +79,41 @@
         "coords": [
             34.37387,
             135.5511
-        ]
+        ],
+        "instagram": "https://www.instagram.com/p/DPGovxZEvjQ",
+        "hike_date": "2025-09-27"
     },
     {
         "name": "Mount Hiei",
         "name_ja": "比叡山",
-        "prefecture": "Shiga / Kyoto",
+        "prefecture": "Shiga",
         "coords": [
             35.03139,
             135.86139
-        ]
+        ],
+        "hike_date": "2025-06-29"
     },
     {
-        "name": "Nakayama dera (Hyogo)",
+        "name": "Nakayama Dera",
         "name_ja": "中山寺",
         "prefecture": "Hyogo",
         "coords": [
             34.78583,
             135.29222
-        ]
+        ],
+        "instagram": "",
+        "hike_date": "2025-05-31"
     },
     {
         "name": "Suma Rikyu Park",
         "name_ja": "須磨離宮公園",
         "prefecture": "Hyogo",
         "coords": [
-            34.69,
-            135.19556
-        ]
+            34.653257,
+            135.117738
+        ],
+        "instagram": "https://www.instagram.com/p/DapMa66miDR/?img_index=2",
+        "hike_date": "2024-11-3"
     },
     {
         "name": "Awaji Island",
@@ -106,16 +122,19 @@
         "coords": [
             34.38333,
             134.88333
-        ]
+        ],
+        "hike_date": "2024-12-31"
     },
     {
         "name": "Mount Shigi",
         "name_ja": "信貴山",
-        "prefecture": "Nara / Osaka",
+        "prefecture": "Nara",
         "coords": [
             34.61245,
             135.66771
-        ]
+        ],
+        "instagram": "https://www.instagram.com/p/DPY3kxekgi6",
+        "hike_date": "2025-10-04"
     },
     {
         "name": "Himeji - Acko",
@@ -124,7 +143,8 @@
         "coords": [
             34.81667,
             134.68333
-        ]
+        ],
+        "hike_date": "2025-01-29"
     },
     {
         "name": "Nunobiki Falls",
@@ -133,7 +153,9 @@
         "coords": [
             34.72222,
             135.19583
-        ]
+        ],
+        "instagram": "https://www.instagram.com/p/DapMa66miDR/?img_index=1",
+        "hike_date": "2024-11-09"
     },
     {
         "name": "Yoshinoyama Nara",
@@ -142,7 +164,9 @@
         "coords": [
             34.36667,
             135.76722
-        ]
+        ],
+        "instagram": "https://www.instagram.com/p/DPq14YDEuMg",
+        "hike_date": "2025-10-11"
     },
     {
         "name": "Tanzan Shrine-Katarai",
@@ -151,7 +175,9 @@
         "coords": [
             34.465488,
             135.861846
-        ]
+        ],
+        "instagram": "https://www.instagram.com/p/DQ0b3KGkpyD",
+        "hike_date": "2025-11-08"
     },
     {
         "name": "Kikusuiyama",
@@ -160,7 +186,9 @@
         "coords": [
             34.708654,
             135.15294
-        ]
+        ],
+        "instagram": "https://www.instagram.com/p/DRLwKmmEuqJ/?img_index=6",
+        "hike_date": "2025-11-16"
     },
     {
         "name": "Nabebutayama",
@@ -169,7 +197,9 @@
         "coords": [
             34.7157,
             135.166696
-        ]
+        ],
+        "instagram": "https://www.instagram.com/p/DRLwKmmEuqJ/?img_index=1",
+        "hike_date": "2025-11-16"
     },
     {
         "name": "Futatabiyama",
@@ -178,16 +208,20 @@
         "coords": [
             34.718383,
             135.177735
-        ]
+        ],
+        "instagram": "https://www.instagram.com/p/DRLwKmmEuqJ/?img_index=6",
+        "hike_date": "2025-11-16"
     },
     {
         "name": "Ponpon",
         "name_ja": "ポンポン山",
-        "prefecture": "Kyoto / Osaka",
+        "prefecture": "Kyoto",
         "coords": [
             34.935151,
             135.623831
-        ]
+        ],
+        "instagram": "https://www.instagram.com/p/DRbRkUnEkwL",
+        "hike_date": "2025-11-23"
     },
     {
         "name": "Iimoriyama",
@@ -196,7 +230,9 @@
         "coords": [
             34.726455,
             135.653526
-        ]
+        ],
+        "instagram": "https://www.instagram.com/p/DRuYYa-khNb",
+        "hike_date": "2025-11-29"
     },
     {
         "name": "Osaka Castle Evening Walk",
@@ -205,7 +241,9 @@
         "coords": [
             34.687159,
             135.526106
-        ]
+        ],
+        "instagram": "https://www.instagram.com/p/DR95wUSkl2L",
+        "hike_date": "2025-12-08"
     },
     {
         "name": "Yakeoyama (Snow Hike)",
@@ -215,26 +253,84 @@
             35.260368,
             135.937386
         ],
-        "instagram": "https://www.instagram.com/p/DSNdOzyEgVX"
+        "instagram": "https://www.instagram.com/p/DSNdOzyEgVX",
+        "hike_date": "2025-12-13"
     },
     {
-        "name": "Kinka-Ji (金閣寺)",
+        "name": "Kinkaku-Ji",
         "name_ja": "金閣寺",
-        "prefecture": "京都",
+        "prefecture": "Kyoto",
         "coords": [
             35.039248,
             135.729152
         ],
-        "instagram": "https://www.instagram.com/p/DSfk7JCkt4g"
+        "instagram": "https://www.instagram.com/p/DSfk7JCkt4g",
+        "hike_date": "2025-12-20"
     },
     {
         "name": "Yatakayama",
         "name_ja": "弥高山",
-        "prefecture": "Shiga (滋賀県）",
+        "prefecture": "Shiga",
         "coords": [
             35.400601,
             136.4072
         ],
-        "instagram": "https://www.instagram.com/p/DS0DIXlEmyu/"
+        "instagram": "https://www.instagram.com/p/DS0DIXlEmyu/",
+        "hike_date": "2025-12-27"
+    },
+    {
+        "name": "Hajime A 100yo Cafe Kokawa",
+        "name_ja": "はじめカフー粉河駅和歌山県",
+        "prefecture": "Wakayama",
+        "coords": [
+            34.271317,
+            135.405135
+        ],
+        "instagram": "https://www.instagram.com/p/DWHOswemmnp",
+        "hike_date": "2026-03-26"
+    },
+    {
+        "name": "Kinokawa City",
+        "name_ja": "紀の川市",
+        "prefecture": "Wakayama",
+        "coords": [
+            34.262398,
+            135.375462
+        ],
+        "instagram": "https://www.instagram.com/p/Daf11XQGixQ",
+        "hike_date": "2026-07-07"
+    },
+    {
+        "name": "Nara Deer Park",
+        "name_ja": "鹿パーク奈良",
+        "prefecture": "Nara",
+        "coords": [
+            34.684996,
+            135.842963
+        ],
+        "instagram": "https://www.instagram.com/p/DVSF52PkkfB",
+        "hike_date": "2026-02-22"
+    },
+    {
+        "name": "Mt. Ikoma",
+        "name_ja": "生駒山",
+        "prefecture": "Nara",
+        "coords": [
+            34.678537,
+            135.678925
+        ],
+        "instagram": "https://www.instagram.com/p/DTZL82UEu55/?img_index=3",
+        "hike_date": "2026-01-11"
+    },
+    {
+        "name": "Kyotanabe City",
+        "name_ja": "京田辺市",
+        "prefecture": "Kyoto",
+        "coords": [
+            34.815856,
+            135.766836
+        ],
+        "instagram": "https://www.instagram.com/p/DQl2lgpEmpA",
+        "hike_date": "2025-11-02"
     }
 ]

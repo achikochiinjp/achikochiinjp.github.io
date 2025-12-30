@@ -23,7 +23,7 @@
             <meta name="viewport" content="width=device-width,
                 initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
             <style>
-                #map_3a8b3a4422b8c48ed0ab614e286648ac {
+                #map_5fc5036df9ff73868415e4f229a2cfef {
                     position: relative;
                     width: 100.0%;
                     height: 100.0%;
@@ -72,7 +72,7 @@
   box-shadow: 0 2px 6px rgba(0,0,0,0.25);
   z-index: 9999;
 ">
-  🗺️ Click on a marker to see hike details & photos
+  🗺️  ハイクの内容を見るためにマーカに押してください。
 </div>
     
 <a href="https://www.instagram.com/achikochiinjp/"
@@ -99,14 +99,14 @@
   Hiking Instagram
 </a>
     
-            <div class="folium-map" id="map_3a8b3a4422b8c48ed0ab614e286648ac" ></div>
+            <div class="folium-map" id="map_5fc5036df9ff73868415e4f229a2cfef" ></div>
         
 </body>
 <script>
     
     
-            var map_3a8b3a4422b8c48ed0ab614e286648ac = L.map(
-                "map_3a8b3a4422b8c48ed0ab614e286648ac",
+            var map_5fc5036df9ff73868415e4f229a2cfef = L.map(
+                "map_5fc5036df9ff73868415e4f229a2cfef",
                 {
                     center: [36.2048, 138.2529],
                     crs: L.CRS.EPSG3857,
@@ -123,7 +123,7 @@
 
         
     
-            var tile_layer_7a6ce127647993e0eea1a3b8a00b5219 = L.tileLayer(
+            var tile_layer_a179c5d05bfd0b05cdfd0d2c131a9cc8 = L.tileLayer(
                 "https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png",
                 {
   "minZoom": 0,
@@ -140,634 +140,754 @@
             );
         
     
-            tile_layer_7a6ce127647993e0eea1a3b8a00b5219.addTo(map_3a8b3a4422b8c48ed0ab614e286648ac);
+            tile_layer_a179c5d05bfd0b05cdfd0d2c131a9cc8.addTo(map_5fc5036df9ff73868415e4f229a2cfef);
         
     
-            map_3a8b3a4422b8c48ed0ab614e286648ac.fitBounds(
-                [[34.77778, 135.26389], [34.66572, 135.11178], [34.79977, 135.36007], [34.41944, 135.67306], [34.79977, 135.36007], [34.78333, 135.68333], [34.73292, 135.20444], [34.37387, 135.5511], [35.03139, 135.86139], [34.78583, 135.29222], [34.69, 135.19556], [34.38333, 134.88333], [34.61245, 135.66771], [34.81667, 134.68333], [34.72222, 135.19583], [34.36667, 135.76722], [34.465488, 135.861846], [34.708654, 135.15294], [34.7157, 135.166696], [34.718383, 135.177735], [34.935151, 135.623831], [34.726455, 135.653526], [34.687159, 135.526106], [35.260368, 135.937386], [35.039248, 135.729152], [35.400601, 136.4072]],
+            map_5fc5036df9ff73868415e4f229a2cfef.fitBounds(
+                [[34.77778, 135.26389], [34.66572, 135.11178], [34.79977, 135.36007], [34.41944, 135.67306], [34.79977, 135.36007], [34.78333, 135.68333], [34.73292, 135.20444], [34.37387, 135.5511], [35.03139, 135.86139], [34.78583, 135.29222], [34.653257, 135.117738], [34.38333, 134.88333], [34.61245, 135.66771], [34.81667, 134.68333], [34.72222, 135.19583], [34.36667, 135.76722], [34.465488, 135.861846], [34.708654, 135.15294], [34.7157, 135.166696], [34.718383, 135.177735], [34.935151, 135.623831], [34.726455, 135.653526], [34.687159, 135.526106], [35.260368, 135.937386], [35.039248, 135.729152], [35.400601, 136.4072], [34.271317, 135.405135], [34.262398, 135.375462], [34.684996, 135.842963], [34.678537, 135.678925], [34.815856, 135.766836]],
                 {"padding": [40, 40]}
             );
         
     
-            var marker_e891a3f3501227438596e12e4b173beb = L.marker(
+            var marker_f527f127541f0781d7889fc7ee34a580 = L.marker(
                 [34.77778, 135.26389],
                 {
 }
-            ).addTo(map_3a8b3a4422b8c48ed0ab614e286648ac);
+            ).addTo(map_5fc5036df9ff73868415e4f229a2cfef);
         
     
-        var popup_211b4b92cd0b6bbd6e40687f9258d0fb = L.popup({
+        var popup_632e2c8c1677d59ae7c710a3cda7d00c = L.popup({
   "maxWidth": "100%",
 });
 
         
             
-                var html_4c86e9ec0175129367851b5219036df0 = $(`<div id="html_4c86e9ec0175129367851b5219036df0" style="width: 100.0%; height: 100.0%;">     <b>六甲山 (Mount Rokko)</b><br>     <small>📍 Hyogo</small><br><br>      <div style="       display: flex;       flex-wrap: wrap;       gap: 6px;       justify-content: flex-start;     ">       <i>Add images to Images\Mount_Rokko</i>     </div>           </div>`)[0];
-                popup_211b4b92cd0b6bbd6e40687f9258d0fb.setContent(html_4c86e9ec0175129367851b5219036df0);
+                var html_769f39b1a277c7bbd317f7e3dab06e4e = $(`<div id="html_769f39b1a277c7bbd317f7e3dab06e4e" style="width: 100.0%; height: 100.0%;">     <b>六甲山 (Mount Rokko)</b><br>     <small>📍 Hyogo</small><br><br>     <small>📅 2025-01-26</small><br><br>      <div style="       display: flex;       flex-wrap: wrap;       gap: 6px;       justify-content: flex-start;     ">       <i>Add images to 2025_01_26_Mount_Rokko</i>     </div>           </div>`)[0];
+                popup_632e2c8c1677d59ae7c710a3cda7d00c.setContent(html_769f39b1a277c7bbd317f7e3dab06e4e);
             
         
 
-        marker_e891a3f3501227438596e12e4b173beb.bindPopup(popup_211b4b92cd0b6bbd6e40687f9258d0fb)
+        marker_f527f127541f0781d7889fc7ee34a580.bindPopup(popup_632e2c8c1677d59ae7c710a3cda7d00c)
         ;
 
         
     
     
-            var marker_b9c6bb081e28a494aa1f515f2bee1a87 = L.marker(
+            var marker_ee07d295b3792bfddedfed3fd72f3eb6 = L.marker(
                 [34.66572, 135.11178],
                 {
 }
-            ).addTo(map_3a8b3a4422b8c48ed0ab614e286648ac);
+            ).addTo(map_5fc5036df9ff73868415e4f229a2cfef);
         
     
-        var popup_3fed3064f8767e4b8e52ceded4f2ef46 = L.popup({
+        var popup_ad08908d770447ac8f6b6c9f42e7d5ca = L.popup({
   "maxWidth": "100%",
 });
 
         
             
-                var html_b67cca9954375abe53a720d50fe08b54 = $(`<div id="html_b67cca9954375abe53a720d50fe08b54" style="width: 100.0%; height: 100.0%;">     <b>馬の背 (Uma Nose)</b><br>     <small>📍 Hyogo</small><br><br>      <div style="       display: flex;       flex-wrap: wrap;       gap: 6px;       justify-content: flex-start;     ">       <i>Add images to Images\Uma_Nose</i>     </div>           </div>`)[0];
-                popup_3fed3064f8767e4b8e52ceded4f2ef46.setContent(html_b67cca9954375abe53a720d50fe08b54);
+                var html_1153caf7090f893f6c193e07e98e7e2a = $(`<div id="html_1153caf7090f893f6c193e07e98e7e2a" style="width: 100.0%; height: 100.0%;">     <b>馬の背 (Uma Nose)</b><br>     <small>📍 Hyogo</small><br><br>     <small>📅 2025-01-12</small><br><br>      <div style="       display: flex;       flex-wrap: wrap;       gap: 6px;       justify-content: flex-start;     ">       <i>Add images to 2025_01_12_Uma_Nose</i>     </div>           </div>`)[0];
+                popup_ad08908d770447ac8f6b6c9f42e7d5ca.setContent(html_1153caf7090f893f6c193e07e98e7e2a);
             
         
 
-        marker_b9c6bb081e28a494aa1f515f2bee1a87.bindPopup(popup_3fed3064f8767e4b8e52ceded4f2ef46)
+        marker_ee07d295b3792bfddedfed3fd72f3eb6.bindPopup(popup_ad08908d770447ac8f6b6c9f42e7d5ca)
         ;
 
         
     
     
-            var marker_842824b6dcc057bb0c6d533bb22a6649 = L.marker(
+            var marker_549e87c02edae4080bbeee8ce298dc3d = L.marker(
                 [34.79977, 135.36007],
                 {
 }
-            ).addTo(map_3a8b3a4422b8c48ed0ab614e286648ac);
+            ).addTo(map_5fc5036df9ff73868415e4f229a2cfef);
         
     
-        var popup_f2714dce381c899b2e5feaa0d48053e8 = L.popup({
+        var popup_a3b4a2c99f613b040671909fc3e396a3 = L.popup({
   "maxWidth": "100%",
 });
 
         
             
-                var html_59effa05b855a0ec828f76d36871b90c = $(`<div id="html_59effa05b855a0ec828f76d36871b90c" style="width: 100.0%; height: 100.0%;">     <b>福知山 (Fukuchiyama)</b><br>     <small>📍 Kyoto</small><br><br>      <div style="       display: flex;       flex-wrap: wrap;       gap: 6px;       justify-content: flex-start;     ">       <i>Add images to Images\Fukuchiyama</i>     </div>           </div>`)[0];
-                popup_f2714dce381c899b2e5feaa0d48053e8.setContent(html_59effa05b855a0ec828f76d36871b90c);
+                var html_7f94f465f60bb170cbddeb4412597500 = $(`<div id="html_7f94f465f60bb170cbddeb4412597500" style="width: 100.0%; height: 100.0%;">     <b>福知山 (Fukuchiyama)</b><br>     <small>📍 Kyoto</small><br><br>     <small>📅 2025-09-13</small><br><br>      <div style="       display: flex;       flex-wrap: wrap;       gap: 6px;       justify-content: flex-start;     ">       <i>Add images to 2025_09_13_Fukuchiyama</i>     </div>               <br>         <a href="https://www.instagram.com/p/DPH6MucEvPI"            target="_blank"            rel="noopener noreferrer"            style="text-decoration:none; color:#E4405F; font-weight:500;">           <i class="fab fa-instagram"></i> View on Instagram         </a>              </div>`)[0];
+                popup_a3b4a2c99f613b040671909fc3e396a3.setContent(html_7f94f465f60bb170cbddeb4412597500);
             
         
 
-        marker_842824b6dcc057bb0c6d533bb22a6649.bindPopup(popup_f2714dce381c899b2e5feaa0d48053e8)
+        marker_549e87c02edae4080bbeee8ce298dc3d.bindPopup(popup_a3b4a2c99f613b040671909fc3e396a3)
         ;
 
         
     
     
-            var marker_449a6ef7de4f77b80ff0132373a0037d = L.marker(
+            var marker_2d00ad00b99447fce623ddbed3c36f8b = L.marker(
                 [34.41944, 135.67306],
                 {
 }
-            ).addTo(map_3a8b3a4422b8c48ed0ab614e286648ac);
+            ).addTo(map_5fc5036df9ff73868415e4f229a2cfef);
         
     
-        var popup_15325929bce57ea3918b1c26f8c0d83f = L.popup({
+        var popup_90b038441c83f760048b0a03f07254df = L.popup({
   "maxWidth": "100%",
 });
 
         
             
-                var html_dcabba0194c4d71c5f6a739da30db395 = $(`<div id="html_dcabba0194c4d71c5f6a739da30db395" style="width: 100.0%; height: 100.0%;">     <b>金剛山 (Mount Kongou)</b><br>     <small>📍 Osaka / Nara</small><br><br>      <div style="       display: flex;       flex-wrap: wrap;       gap: 6px;       justify-content: flex-start;     ">       <i>Add images to Images\Mount_Kongou</i>     </div>           </div>`)[0];
-                popup_15325929bce57ea3918b1c26f8c0d83f.setContent(html_dcabba0194c4d71c5f6a739da30db395);
+                var html_4ae7d266e8c9dccca560ff949402da02 = $(`<div id="html_4ae7d266e8c9dccca560ff949402da02" style="width: 100.0%; height: 100.0%;">     <b>金剛山 (Mount Kongou)</b><br>     <small>📍 Osaka</small><br><br>     <small>📅 2025-09-21</small><br><br>      <div style="       display: flex;       flex-wrap: wrap;       gap: 6px;       justify-content: flex-start;     ">       <i>Add images to 2025_09_21_Mount_Kongou</i>     </div>               <br>         <a href="https://www.instagram.com/p/DPGpnTBkjV0"            target="_blank"            rel="noopener noreferrer"            style="text-decoration:none; color:#E4405F; font-weight:500;">           <i class="fab fa-instagram"></i> View on Instagram         </a>              </div>`)[0];
+                popup_90b038441c83f760048b0a03f07254df.setContent(html_4ae7d266e8c9dccca560ff949402da02);
             
         
 
-        marker_449a6ef7de4f77b80ff0132373a0037d.bindPopup(popup_15325929bce57ea3918b1c26f8c0d83f)
+        marker_2d00ad00b99447fce623ddbed3c36f8b.bindPopup(popup_90b038441c83f760048b0a03f07254df)
         ;
 
         
     
     
-            var marker_a455ab238f7c397a140ca9fde2db0f12 = L.marker(
+            var marker_e067294bb58cad0f302f6cce449e2e1a = L.marker(
                 [34.79977, 135.36007],
                 {
 }
-            ).addTo(map_3a8b3a4422b8c48ed0ab614e286648ac);
+            ).addTo(map_5fc5036df9ff73868415e4f229a2cfef);
         
     
-        var popup_73dae9392a5ae1b16fd72f1e21e422a9 = L.popup({
+        var popup_5c88ab7f1566db272fb64b2061109bbc = L.popup({
   "maxWidth": "100%",
 });
 
         
             
-                var html_7721896007b0cf35968ca3d9534c06eb = $(`<div id="html_7721896007b0cf35968ca3d9534c06eb" style="width: 100.0%; height: 100.0%;">     <b>高取山 (Takatori)</b><br>     <small>📍 Hyogo</small><br><br>      <div style="       display: flex;       flex-wrap: wrap;       gap: 6px;       justify-content: flex-start;     ">       <i>Add images to Images\Takatori</i>     </div>           </div>`)[0];
-                popup_73dae9392a5ae1b16fd72f1e21e422a9.setContent(html_7721896007b0cf35968ca3d9534c06eb);
+                var html_a9da8fe170ace8d91c238b52a7dce107 = $(`<div id="html_a9da8fe170ace8d91c238b52a7dce107" style="width: 100.0%; height: 100.0%;">     <b>高取山 (Takatori)</b><br>     <small>📍 Hyogo</small><br><br>     <small>📅 2024-12-22</small><br><br>      <div style="       display: flex;       flex-wrap: wrap;       gap: 6px;       justify-content: flex-start;     ">       <i>Add images to 2024_12_22_Takatori</i>     </div>           </div>`)[0];
+                popup_5c88ab7f1566db272fb64b2061109bbc.setContent(html_a9da8fe170ace8d91c238b52a7dce107);
             
         
 
-        marker_a455ab238f7c397a140ca9fde2db0f12.bindPopup(popup_73dae9392a5ae1b16fd72f1e21e422a9)
+        marker_e067294bb58cad0f302f6cce449e2e1a.bindPopup(popup_5c88ab7f1566db272fb64b2061109bbc)
         ;
 
         
     
     
-            var marker_9be767b1aa75685ac01a3e14b9b8c509 = L.marker(
+            var marker_4151b573abf3b6c064c401e3438ce81e = L.marker(
                 [34.78333, 135.68333],
                 {
 }
-            ).addTo(map_3a8b3a4422b8c48ed0ab614e286648ac);
+            ).addTo(map_5fc5036df9ff73868415e4f229a2cfef);
         
     
-        var popup_9482b88ffdb0c2144d99797fe30aeb9e = L.popup({
+        var popup_cc83a9a9cc14e6a9fed4150ed01eec19 = L.popup({
   "maxWidth": "100%",
 });
 
         
             
-                var html_ec047134ac2621b90841a03281e4df05 = $(`<div id="html_ec047134ac2621b90841a03281e4df05" style="width: 100.0%; height: 100.0%;">     <b>高野・国見山 (Koya-Kunimi)</b><br>     <small>📍 Osaka</small><br><br>      <div style="       display: flex;       flex-wrap: wrap;       gap: 6px;       justify-content: flex-start;     ">                <img src="Images/Koya-Kunimi/Untitled.png" style="width:200px; margin:4px;">              </div>               <br>         <a href="https://www.instagram.com/p/DPiLC7Dkkd0"            target="_blank"            rel="noopener noreferrer"            style="text-decoration:none; color:#E4405F; font-weight:500;">           <i class="fab fa-instagram"></i> View on Instagram         </a>              </div>`)[0];
-                popup_9482b88ffdb0c2144d99797fe30aeb9e.setContent(html_ec047134ac2621b90841a03281e4df05);
+                var html_941ee773ff1ba4ae2ccf1ed1313a9945 = $(`<div id="html_941ee773ff1ba4ae2ccf1ed1313a9945" style="width: 100.0%; height: 100.0%;">     <b>高野・国見山 (Koya-Kunimi)</b><br>     <small>📍 Osaka</small><br><br>     <small>📅 2025-07-19</small><br><br>      <div style="       display: flex;       flex-wrap: wrap;       gap: 6px;       justify-content: flex-start;     ">                <img src="Images/2025_07_19_Koya_Kunimi/Untitled.png" style="width:200px; margin:4px;">              </div>               <br>         <a href="https://www.instagram.com/p/DPiLC7Dkkd0"            target="_blank"            rel="noopener noreferrer"            style="text-decoration:none; color:#E4405F; font-weight:500;">           <i class="fab fa-instagram"></i> View on Instagram         </a>              </div>`)[0];
+                popup_cc83a9a9cc14e6a9fed4150ed01eec19.setContent(html_941ee773ff1ba4ae2ccf1ed1313a9945);
             
         
 
-        marker_9be767b1aa75685ac01a3e14b9b8c509.bindPopup(popup_9482b88ffdb0c2144d99797fe30aeb9e)
+        marker_4151b573abf3b6c064c401e3438ce81e.bindPopup(popup_cc83a9a9cc14e6a9fed4150ed01eec19)
         ;
 
         
     
     
-            var marker_b64a3e6fe54351cbc6546e8593143acf = L.marker(
+            var marker_81058507aad774a65c1f023dd4a006b7 = L.marker(
                 [34.73292, 135.20444],
                 {
 }
-            ).addTo(map_3a8b3a4422b8c48ed0ab614e286648ac);
+            ).addTo(map_5fc5036df9ff73868415e4f229a2cfef);
         
     
-        var popup_210f1e14194e88a5d0cd24dddfd02dee = L.popup({
+        var popup_5faf57e880f5ad1a37b596bd48d06e3d = L.popup({
   "maxWidth": "100%",
 });
 
         
             
-                var html_f0564c3e593d21b546ed31cdec079f97 = $(`<div id="html_f0564c3e593d21b546ed31cdec079f97" style="width: 100.0%; height: 100.0%;">     <b>摩耶山 (Mount Maya)</b><br>     <small>📍 Hyogo</small><br><br>      <div style="       display: flex;       flex-wrap: wrap;       gap: 6px;       justify-content: flex-start;     ">       <i>Add images to Images\Mount_Maya</i>     </div>           </div>`)[0];
-                popup_210f1e14194e88a5d0cd24dddfd02dee.setContent(html_f0564c3e593d21b546ed31cdec079f97);
+                var html_edf9b5acdb2b660b955fa91e509ecba4 = $(`<div id="html_edf9b5acdb2b660b955fa91e509ecba4" style="width: 100.0%; height: 100.0%;">     <b>摩耶山 (Mount Maya)</b><br>     <small>📍 Hyogo</small><br><br>     <small>📅 2025-02-23</small><br><br>      <div style="       display: flex;       flex-wrap: wrap;       gap: 6px;       justify-content: flex-start;     ">       <i>Add images to 2025_02_23_Mount_Maya</i>     </div>           </div>`)[0];
+                popup_5faf57e880f5ad1a37b596bd48d06e3d.setContent(html_edf9b5acdb2b660b955fa91e509ecba4);
             
         
 
-        marker_b64a3e6fe54351cbc6546e8593143acf.bindPopup(popup_210f1e14194e88a5d0cd24dddfd02dee)
+        marker_81058507aad774a65c1f023dd4a006b7.bindPopup(popup_5faf57e880f5ad1a37b596bd48d06e3d)
         ;
 
         
     
     
-            var marker_be07dad10dc2bd0e7357a6504f61c0aa = L.marker(
+            var marker_9ef0dd0efef5661fa973c107135b505f = L.marker(
                 [34.37387, 135.5511],
                 {
 }
-            ).addTo(map_3a8b3a4422b8c48ed0ab614e286648ac);
+            ).addTo(map_5fc5036df9ff73868415e4f229a2cfef);
         
     
-        var popup_fcc161b2081154645d361cc6436a6d0a = L.popup({
+        var popup_9a6bd4c5c98515df140d14f7dd5414ff = L.popup({
   "maxWidth": "100%",
 });
 
         
             
-                var html_a55c62bfb8c1b26e949c61ec6c098525 = $(`<div id="html_a55c62bfb8c1b26e949c61ec6c098525" style="width: 100.0%; height: 100.0%;">     <b>岩湧山 (Mount Iwawaki)</b><br>     <small>📍 Osaka</small><br><br>      <div style="       display: flex;       flex-wrap: wrap;       gap: 6px;       justify-content: flex-start;     ">       <i>Add images to Images\Mount_Iwawaki</i>     </div>           </div>`)[0];
-                popup_fcc161b2081154645d361cc6436a6d0a.setContent(html_a55c62bfb8c1b26e949c61ec6c098525);
+                var html_db4b5359055d48546cef49d2ec79afb3 = $(`<div id="html_db4b5359055d48546cef49d2ec79afb3" style="width: 100.0%; height: 100.0%;">     <b>岩湧山 (Mount Iwawaki)</b><br>     <small>📍 Osaka</small><br><br>     <small>📅 2025-09-27</small><br><br>      <div style="       display: flex;       flex-wrap: wrap;       gap: 6px;       justify-content: flex-start;     ">       <i>Add images to 2025_09_27_Mount_Iwawaki</i>     </div>               <br>         <a href="https://www.instagram.com/p/DPGovxZEvjQ"            target="_blank"            rel="noopener noreferrer"            style="text-decoration:none; color:#E4405F; font-weight:500;">           <i class="fab fa-instagram"></i> View on Instagram         </a>              </div>`)[0];
+                popup_9a6bd4c5c98515df140d14f7dd5414ff.setContent(html_db4b5359055d48546cef49d2ec79afb3);
             
         
 
-        marker_be07dad10dc2bd0e7357a6504f61c0aa.bindPopup(popup_fcc161b2081154645d361cc6436a6d0a)
+        marker_9ef0dd0efef5661fa973c107135b505f.bindPopup(popup_9a6bd4c5c98515df140d14f7dd5414ff)
         ;
 
         
     
     
-            var marker_15859e13a2dd5edb96d86ca0f9d923b9 = L.marker(
+            var marker_533bf48da74222b63eff62847c37cbf4 = L.marker(
                 [35.03139, 135.86139],
                 {
 }
-            ).addTo(map_3a8b3a4422b8c48ed0ab614e286648ac);
+            ).addTo(map_5fc5036df9ff73868415e4f229a2cfef);
         
     
-        var popup_b123549786bbaf2a1e196bb466dee541 = L.popup({
+        var popup_0e55e2e72e952fd744f320fc2bd43950 = L.popup({
   "maxWidth": "100%",
 });
 
         
             
-                var html_ef7f7bec61f124deafbaf7a544ea8210 = $(`<div id="html_ef7f7bec61f124deafbaf7a544ea8210" style="width: 100.0%; height: 100.0%;">     <b>比叡山 (Mount Hiei)</b><br>     <small>📍 Shiga / Kyoto</small><br><br>      <div style="       display: flex;       flex-wrap: wrap;       gap: 6px;       justify-content: flex-start;     ">       <i>Add images to Images\Mount_Hiei</i>     </div>           </div>`)[0];
-                popup_b123549786bbaf2a1e196bb466dee541.setContent(html_ef7f7bec61f124deafbaf7a544ea8210);
+                var html_e36df44c1aebecd2d95bb8fb585f934c = $(`<div id="html_e36df44c1aebecd2d95bb8fb585f934c" style="width: 100.0%; height: 100.0%;">     <b>比叡山 (Mount Hiei)</b><br>     <small>📍 Shiga</small><br><br>     <small>📅 2025-06-29</small><br><br>      <div style="       display: flex;       flex-wrap: wrap;       gap: 6px;       justify-content: flex-start;     ">       <i>Add images to 2025_06_29_Mount_Hiei</i>     </div>           </div>`)[0];
+                popup_0e55e2e72e952fd744f320fc2bd43950.setContent(html_e36df44c1aebecd2d95bb8fb585f934c);
             
         
 
-        marker_15859e13a2dd5edb96d86ca0f9d923b9.bindPopup(popup_b123549786bbaf2a1e196bb466dee541)
+        marker_533bf48da74222b63eff62847c37cbf4.bindPopup(popup_0e55e2e72e952fd744f320fc2bd43950)
         ;
 
         
     
     
-            var marker_fe0fc199a9680e05908df63e761c717d = L.marker(
+            var marker_f4e232fd9788f00b0651a96450ee2d5a = L.marker(
                 [34.78583, 135.29222],
                 {
 }
-            ).addTo(map_3a8b3a4422b8c48ed0ab614e286648ac);
+            ).addTo(map_5fc5036df9ff73868415e4f229a2cfef);
         
     
-        var popup_7297d139cf31bd70fd6eb4f8920484b3 = L.popup({
+        var popup_d60d97b14d6cf32a7e5e4104d954bf77 = L.popup({
   "maxWidth": "100%",
 });
 
         
             
-                var html_c33cb6fcb532060421c23fe09b2ff7a5 = $(`<div id="html_c33cb6fcb532060421c23fe09b2ff7a5" style="width: 100.0%; height: 100.0%;">     <b>中山寺 (Nakayama dera (Hyogo))</b><br>     <small>📍 Hyogo</small><br><br>      <div style="       display: flex;       flex-wrap: wrap;       gap: 6px;       justify-content: flex-start;     ">       <i>Add images to Images\Nakayama_dera_(Hyogo)</i>     </div>           </div>`)[0];
-                popup_7297d139cf31bd70fd6eb4f8920484b3.setContent(html_c33cb6fcb532060421c23fe09b2ff7a5);
+                var html_08a3cbd1944a7559ad670c9c5b7195eb = $(`<div id="html_08a3cbd1944a7559ad670c9c5b7195eb" style="width: 100.0%; height: 100.0%;">     <b>中山寺 (Nakayama Dera)</b><br>     <small>📍 Hyogo</small><br><br>     <small>📅 2025-05-31</small><br><br>      <div style="       display: flex;       flex-wrap: wrap;       gap: 6px;       justify-content: flex-start;     ">       <i>Add images to 2025_05_31_Nakayama_Dera</i>     </div>           </div>`)[0];
+                popup_d60d97b14d6cf32a7e5e4104d954bf77.setContent(html_08a3cbd1944a7559ad670c9c5b7195eb);
             
         
 
-        marker_fe0fc199a9680e05908df63e761c717d.bindPopup(popup_7297d139cf31bd70fd6eb4f8920484b3)
+        marker_f4e232fd9788f00b0651a96450ee2d5a.bindPopup(popup_d60d97b14d6cf32a7e5e4104d954bf77)
         ;
 
         
     
     
-            var marker_c285cfa448207443a11dd08618220a8a = L.marker(
-                [34.69, 135.19556],
+            var marker_29c4ffdeccb55da4b3f58e264a8a148d = L.marker(
+                [34.653257, 135.117738],
                 {
 }
-            ).addTo(map_3a8b3a4422b8c48ed0ab614e286648ac);
+            ).addTo(map_5fc5036df9ff73868415e4f229a2cfef);
         
     
-        var popup_a12d97bdd81965aa0528069a092d74c8 = L.popup({
+        var popup_23b283d24a47e2d79b16a9407d58cc95 = L.popup({
   "maxWidth": "100%",
 });
 
         
             
-                var html_e98c4dd7c1a0ecdb3d909dc2f5a63dee = $(`<div id="html_e98c4dd7c1a0ecdb3d909dc2f5a63dee" style="width: 100.0%; height: 100.0%;">     <b>須磨離宮公園 (Suma Rikyu Park)</b><br>     <small>📍 Hyogo</small><br><br>      <div style="       display: flex;       flex-wrap: wrap;       gap: 6px;       justify-content: flex-start;     ">       <i>Add images to Images\Suma_Rikyu_Park</i>     </div>           </div>`)[0];
-                popup_a12d97bdd81965aa0528069a092d74c8.setContent(html_e98c4dd7c1a0ecdb3d909dc2f5a63dee);
+                var html_9eabd19cf82b3594b48d07a0838cd000 = $(`<div id="html_9eabd19cf82b3594b48d07a0838cd000" style="width: 100.0%; height: 100.0%;">     <b>須磨離宮公園 (Suma Rikyu Park)</b><br>     <small>📍 Hyogo</small><br><br>     <small>📅 2024-11-3</small><br><br>      <div style="       display: flex;       flex-wrap: wrap;       gap: 6px;       justify-content: flex-start;     ">       <i>Add images to 2024_11_3_Suma_Rikyu_Park</i>     </div>               <br>         <a href="https://www.instagram.com/p/DapMa66miDR/?img_index=2"            target="_blank"            rel="noopener noreferrer"            style="text-decoration:none; color:#E4405F; font-weight:500;">           <i class="fab fa-instagram"></i> View on Instagram         </a>              </div>`)[0];
+                popup_23b283d24a47e2d79b16a9407d58cc95.setContent(html_9eabd19cf82b3594b48d07a0838cd000);
             
         
 
-        marker_c285cfa448207443a11dd08618220a8a.bindPopup(popup_a12d97bdd81965aa0528069a092d74c8)
+        marker_29c4ffdeccb55da4b3f58e264a8a148d.bindPopup(popup_23b283d24a47e2d79b16a9407d58cc95)
         ;
 
         
     
     
-            var marker_759fa18df14590ecb7fdb3a446373b47 = L.marker(
+            var marker_6e3e4a8916832cae0bd8f23119714e2f = L.marker(
                 [34.38333, 134.88333],
                 {
 }
-            ).addTo(map_3a8b3a4422b8c48ed0ab614e286648ac);
+            ).addTo(map_5fc5036df9ff73868415e4f229a2cfef);
         
     
-        var popup_31e533bef8a926d219e5da52d2c20ff5 = L.popup({
+        var popup_2a300b6d16ebfa1ce192dbe710caee0e = L.popup({
   "maxWidth": "100%",
 });
 
         
             
-                var html_1d66b7fdc8821a68f3c4feb6e737b4b2 = $(`<div id="html_1d66b7fdc8821a68f3c4feb6e737b4b2" style="width: 100.0%; height: 100.0%;">     <b>淡路島 (Awaji Island)</b><br>     <small>📍 Hyogo</small><br><br>      <div style="       display: flex;       flex-wrap: wrap;       gap: 6px;       justify-content: flex-start;     ">       <i>Add images to Images\Awaji_Island</i>     </div>           </div>`)[0];
-                popup_31e533bef8a926d219e5da52d2c20ff5.setContent(html_1d66b7fdc8821a68f3c4feb6e737b4b2);
+                var html_fdf745ee369738dd595a337a66aac5b1 = $(`<div id="html_fdf745ee369738dd595a337a66aac5b1" style="width: 100.0%; height: 100.0%;">     <b>淡路島 (Awaji Island)</b><br>     <small>📍 Hyogo</small><br><br>     <small>📅 2024-12-31</small><br><br>      <div style="       display: flex;       flex-wrap: wrap;       gap: 6px;       justify-content: flex-start;     ">       <i>Add images to 2024_12_31_Awaji_Island</i>     </div>           </div>`)[0];
+                popup_2a300b6d16ebfa1ce192dbe710caee0e.setContent(html_fdf745ee369738dd595a337a66aac5b1);
             
         
 
-        marker_759fa18df14590ecb7fdb3a446373b47.bindPopup(popup_31e533bef8a926d219e5da52d2c20ff5)
+        marker_6e3e4a8916832cae0bd8f23119714e2f.bindPopup(popup_2a300b6d16ebfa1ce192dbe710caee0e)
         ;
 
         
     
     
-            var marker_10d8f05b5fd4db50125bd64df624d693 = L.marker(
+            var marker_75cb540745f5cd293d2c35f292f9c225 = L.marker(
                 [34.61245, 135.66771],
                 {
 }
-            ).addTo(map_3a8b3a4422b8c48ed0ab614e286648ac);
+            ).addTo(map_5fc5036df9ff73868415e4f229a2cfef);
         
     
-        var popup_d9c1b800c0cf9bda38d331d0c359868c = L.popup({
+        var popup_9a90f91924a1f0842c66f25aaab0d114 = L.popup({
   "maxWidth": "100%",
 });
 
         
             
-                var html_cc70136020d9d2817ac3fcc46449e633 = $(`<div id="html_cc70136020d9d2817ac3fcc46449e633" style="width: 100.0%; height: 100.0%;">     <b>信貴山 (Mount Shigi)</b><br>     <small>📍 Nara / Osaka</small><br><br>      <div style="       display: flex;       flex-wrap: wrap;       gap: 6px;       justify-content: flex-start;     ">       <i>Add images to Images\Mount_Shigi</i>     </div>           </div>`)[0];
-                popup_d9c1b800c0cf9bda38d331d0c359868c.setContent(html_cc70136020d9d2817ac3fcc46449e633);
+                var html_fe9ea164268db85ed3f1f0cf915ba185 = $(`<div id="html_fe9ea164268db85ed3f1f0cf915ba185" style="width: 100.0%; height: 100.0%;">     <b>信貴山 (Mount Shigi)</b><br>     <small>📍 Nara</small><br><br>     <small>📅 2025-10-04</small><br><br>      <div style="       display: flex;       flex-wrap: wrap;       gap: 6px;       justify-content: flex-start;     ">       <i>Add images to 2025_10_04_Mount_Shigi</i>     </div>               <br>         <a href="https://www.instagram.com/p/DPY3kxekgi6"            target="_blank"            rel="noopener noreferrer"            style="text-decoration:none; color:#E4405F; font-weight:500;">           <i class="fab fa-instagram"></i> View on Instagram         </a>              </div>`)[0];
+                popup_9a90f91924a1f0842c66f25aaab0d114.setContent(html_fe9ea164268db85ed3f1f0cf915ba185);
             
         
 
-        marker_10d8f05b5fd4db50125bd64df624d693.bindPopup(popup_d9c1b800c0cf9bda38d331d0c359868c)
+        marker_75cb540745f5cd293d2c35f292f9c225.bindPopup(popup_9a90f91924a1f0842c66f25aaab0d114)
         ;
 
         
     
     
-            var marker_13c3dcce71ca9039a11a7262b6d31cba = L.marker(
+            var marker_b3b56b9dc62b4971fcb67bc7fa465219 = L.marker(
                 [34.81667, 134.68333],
                 {
 }
-            ).addTo(map_3a8b3a4422b8c48ed0ab614e286648ac);
+            ).addTo(map_5fc5036df9ff73868415e4f229a2cfef);
         
     
-        var popup_00949256d1881ffcf2b5f944bc15c35b = L.popup({
+        var popup_3cdc74f26a7fe42a9d07803a4b437091 = L.popup({
   "maxWidth": "100%",
 });
 
         
             
-                var html_496eb69f1cb81cd4a0ce38a125615217 = $(`<div id="html_496eb69f1cb81cd4a0ce38a125615217" style="width: 100.0%; height: 100.0%;">     <b>姫路〜安志 (Himeji - Acko)</b><br>     <small>📍 Hyogo</small><br><br>      <div style="       display: flex;       flex-wrap: wrap;       gap: 6px;       justify-content: flex-start;     ">       <i>Add images to Images\Himeji_-_Acko</i>     </div>           </div>`)[0];
-                popup_00949256d1881ffcf2b5f944bc15c35b.setContent(html_496eb69f1cb81cd4a0ce38a125615217);
+                var html_5aaa059a29f4c12091e9024356fa2cf4 = $(`<div id="html_5aaa059a29f4c12091e9024356fa2cf4" style="width: 100.0%; height: 100.0%;">     <b>姫路〜安志 (Himeji - Acko)</b><br>     <small>📍 Hyogo</small><br><br>     <small>📅 2025-01-29</small><br><br>      <div style="       display: flex;       flex-wrap: wrap;       gap: 6px;       justify-content: flex-start;     ">       <i>Add images to 2025_01_29_Himeji___Acko</i>     </div>           </div>`)[0];
+                popup_3cdc74f26a7fe42a9d07803a4b437091.setContent(html_5aaa059a29f4c12091e9024356fa2cf4);
             
         
 
-        marker_13c3dcce71ca9039a11a7262b6d31cba.bindPopup(popup_00949256d1881ffcf2b5f944bc15c35b)
+        marker_b3b56b9dc62b4971fcb67bc7fa465219.bindPopup(popup_3cdc74f26a7fe42a9d07803a4b437091)
         ;
 
         
     
     
-            var marker_1b9751591e89a8f207c239938689e2a7 = L.marker(
+            var marker_1342d8b737c24bef5a68b683bdbe1000 = L.marker(
                 [34.72222, 135.19583],
                 {
 }
-            ).addTo(map_3a8b3a4422b8c48ed0ab614e286648ac);
+            ).addTo(map_5fc5036df9ff73868415e4f229a2cfef);
         
     
-        var popup_212ef9ce3f39cd205b0b213b30acddc7 = L.popup({
+        var popup_da6ac05be6298bb13fbb4a67dc1b0cc7 = L.popup({
   "maxWidth": "100%",
 });
 
         
             
-                var html_37b93bbe3c5c8fea64e35af590c36da1 = $(`<div id="html_37b93bbe3c5c8fea64e35af590c36da1" style="width: 100.0%; height: 100.0%;">     <b>布引の滝 (Nunobiki Falls)</b><br>     <small>📍 Hyogo</small><br><br>      <div style="       display: flex;       flex-wrap: wrap;       gap: 6px;       justify-content: flex-start;     ">       <i>Add images to Images\Nunobiki_Falls</i>     </div>           </div>`)[0];
-                popup_212ef9ce3f39cd205b0b213b30acddc7.setContent(html_37b93bbe3c5c8fea64e35af590c36da1);
+                var html_e7825fa41867351c27f4a67f8f94f3ae = $(`<div id="html_e7825fa41867351c27f4a67f8f94f3ae" style="width: 100.0%; height: 100.0%;">     <b>布引の滝 (Nunobiki Falls)</b><br>     <small>📍 Hyogo</small><br><br>     <small>📅 2024-11-09</small><br><br>      <div style="       display: flex;       flex-wrap: wrap;       gap: 6px;       justify-content: flex-start;     ">       <i>Add images to 2024_11_09_Nunobiki_Falls</i>     </div>               <br>         <a href="https://www.instagram.com/p/DapMa66miDR/?img_index=1"            target="_blank"            rel="noopener noreferrer"            style="text-decoration:none; color:#E4405F; font-weight:500;">           <i class="fab fa-instagram"></i> View on Instagram         </a>              </div>`)[0];
+                popup_da6ac05be6298bb13fbb4a67dc1b0cc7.setContent(html_e7825fa41867351c27f4a67f8f94f3ae);
             
         
 
-        marker_1b9751591e89a8f207c239938689e2a7.bindPopup(popup_212ef9ce3f39cd205b0b213b30acddc7)
+        marker_1342d8b737c24bef5a68b683bdbe1000.bindPopup(popup_da6ac05be6298bb13fbb4a67dc1b0cc7)
         ;
 
         
     
     
-            var marker_1e81b551952a209dacc1da166ce086cf = L.marker(
+            var marker_5420f81e816ad7afc00ff821548ae153 = L.marker(
                 [34.36667, 135.76722],
                 {
 }
-            ).addTo(map_3a8b3a4422b8c48ed0ab614e286648ac);
+            ).addTo(map_5fc5036df9ff73868415e4f229a2cfef);
         
     
-        var popup_a33d944e5ddacf4d578bc05e52893dba = L.popup({
+        var popup_ca180f89e5f85db31ff35e479785ea94 = L.popup({
   "maxWidth": "100%",
 });
 
         
             
-                var html_e981757de625b43a05fa4b4833c0221f = $(`<div id="html_e981757de625b43a05fa4b4833c0221f" style="width: 100.0%; height: 100.0%;">     <b>吉野山 (Yoshinoyama Nara)</b><br>     <small>📍 Nara</small><br><br>      <div style="       display: flex;       flex-wrap: wrap;       gap: 6px;       justify-content: flex-start;     ">       <i>Add images to Images\Yoshinoyama_Nara</i>     </div>           </div>`)[0];
-                popup_a33d944e5ddacf4d578bc05e52893dba.setContent(html_e981757de625b43a05fa4b4833c0221f);
+                var html_ebf29fb167c254dfa53c355ea4c73977 = $(`<div id="html_ebf29fb167c254dfa53c355ea4c73977" style="width: 100.0%; height: 100.0%;">     <b>吉野山 (Yoshinoyama Nara)</b><br>     <small>📍 Nara</small><br><br>     <small>📅 2025-10-11</small><br><br>      <div style="       display: flex;       flex-wrap: wrap;       gap: 6px;       justify-content: flex-start;     ">       <i>Add images to 2025_10_11_Yoshinoyama_Nara</i>     </div>               <br>         <a href="https://www.instagram.com/p/DPq14YDEuMg"            target="_blank"            rel="noopener noreferrer"            style="text-decoration:none; color:#E4405F; font-weight:500;">           <i class="fab fa-instagram"></i> View on Instagram         </a>              </div>`)[0];
+                popup_ca180f89e5f85db31ff35e479785ea94.setContent(html_ebf29fb167c254dfa53c355ea4c73977);
             
         
 
-        marker_1e81b551952a209dacc1da166ce086cf.bindPopup(popup_a33d944e5ddacf4d578bc05e52893dba)
+        marker_5420f81e816ad7afc00ff821548ae153.bindPopup(popup_ca180f89e5f85db31ff35e479785ea94)
         ;
 
         
     
     
-            var marker_980a3cb03294c911cdb1f893fdbaaa97 = L.marker(
+            var marker_30b1f7be0ae3ccbf2948ea16d9d78775 = L.marker(
                 [34.465488, 135.861846],
                 {
 }
-            ).addTo(map_3a8b3a4422b8c48ed0ab614e286648ac);
+            ).addTo(map_5fc5036df9ff73868415e4f229a2cfef);
         
     
-        var popup_7da2e8ca92578cddf6dbf8784547104a = L.popup({
+        var popup_8596296714cefb7f375fd67ab7d896d7 = L.popup({
   "maxWidth": "100%",
 });
 
         
             
-                var html_16751514f7cb23820fa865883946009d = $(`<div id="html_16751514f7cb23820fa865883946009d" style="width: 100.0%; height: 100.0%;">     <b>談山神社 (Tanzan Shrine-Katarai)</b><br>     <small>📍 Nara</small><br><br>      <div style="       display: flex;       flex-wrap: wrap;       gap: 6px;       justify-content: flex-start;     ">       <i>Add images to Images\Tanzan_Shrine-Katarai</i>     </div>           </div>`)[0];
-                popup_7da2e8ca92578cddf6dbf8784547104a.setContent(html_16751514f7cb23820fa865883946009d);
+                var html_1e1eb45d8518e0709bce81239edccf55 = $(`<div id="html_1e1eb45d8518e0709bce81239edccf55" style="width: 100.0%; height: 100.0%;">     <b>談山神社 (Tanzan Shrine-Katarai)</b><br>     <small>📍 Nara</small><br><br>     <small>📅 2025-11-08</small><br><br>      <div style="       display: flex;       flex-wrap: wrap;       gap: 6px;       justify-content: flex-start;     ">       <i>Add images to 2025_11_08_Tanzan_Shrine_Katarai</i>     </div>               <br>         <a href="https://www.instagram.com/p/DQ0b3KGkpyD"            target="_blank"            rel="noopener noreferrer"            style="text-decoration:none; color:#E4405F; font-weight:500;">           <i class="fab fa-instagram"></i> View on Instagram         </a>              </div>`)[0];
+                popup_8596296714cefb7f375fd67ab7d896d7.setContent(html_1e1eb45d8518e0709bce81239edccf55);
             
         
 
-        marker_980a3cb03294c911cdb1f893fdbaaa97.bindPopup(popup_7da2e8ca92578cddf6dbf8784547104a)
+        marker_30b1f7be0ae3ccbf2948ea16d9d78775.bindPopup(popup_8596296714cefb7f375fd67ab7d896d7)
         ;
 
         
     
     
-            var marker_5828dfe4a576fac2c33243fa8beb8f97 = L.marker(
+            var marker_967356eacafed72dbb441bec860699f8 = L.marker(
                 [34.708654, 135.15294],
                 {
 }
-            ).addTo(map_3a8b3a4422b8c48ed0ab614e286648ac);
+            ).addTo(map_5fc5036df9ff73868415e4f229a2cfef);
         
     
-        var popup_ad967fbbbca8c4d79c0ebecc9e11e68d = L.popup({
+        var popup_98394a86104bae3a3eb763c40e69d281 = L.popup({
   "maxWidth": "100%",
 });
 
         
             
-                var html_7786aff06c7fc4dd16b476e6f70df6cd = $(`<div id="html_7786aff06c7fc4dd16b476e6f70df6cd" style="width: 100.0%; height: 100.0%;">     <b>菊水山 (Kikusuiyama)</b><br>     <small>📍 Hyogo</small><br><br>      <div style="       display: flex;       flex-wrap: wrap;       gap: 6px;       justify-content: flex-start;     ">       <i>Add images to Images\Kikusuiyama</i>     </div>           </div>`)[0];
-                popup_ad967fbbbca8c4d79c0ebecc9e11e68d.setContent(html_7786aff06c7fc4dd16b476e6f70df6cd);
+                var html_c42b7366573b5d4d3a2d83786dcca657 = $(`<div id="html_c42b7366573b5d4d3a2d83786dcca657" style="width: 100.0%; height: 100.0%;">     <b>菊水山 (Kikusuiyama)</b><br>     <small>📍 Hyogo</small><br><br>     <small>📅 2025-11-16</small><br><br>      <div style="       display: flex;       flex-wrap: wrap;       gap: 6px;       justify-content: flex-start;     ">       <i>Add images to 2025_11_16_Kikusuiyama</i>     </div>               <br>         <a href="https://www.instagram.com/p/DRLwKmmEuqJ/?img_index=6"            target="_blank"            rel="noopener noreferrer"            style="text-decoration:none; color:#E4405F; font-weight:500;">           <i class="fab fa-instagram"></i> View on Instagram         </a>              </div>`)[0];
+                popup_98394a86104bae3a3eb763c40e69d281.setContent(html_c42b7366573b5d4d3a2d83786dcca657);
             
         
 
-        marker_5828dfe4a576fac2c33243fa8beb8f97.bindPopup(popup_ad967fbbbca8c4d79c0ebecc9e11e68d)
+        marker_967356eacafed72dbb441bec860699f8.bindPopup(popup_98394a86104bae3a3eb763c40e69d281)
         ;
 
         
     
     
-            var marker_65b8be4d93ba5410de9c7951c5e6087f = L.marker(
+            var marker_8df7f4b27c5a1a4537b2ba660dfbe949 = L.marker(
                 [34.7157, 135.166696],
                 {
 }
-            ).addTo(map_3a8b3a4422b8c48ed0ab614e286648ac);
+            ).addTo(map_5fc5036df9ff73868415e4f229a2cfef);
         
     
-        var popup_f4426d8e3bbbf613704c235b394360b5 = L.popup({
+        var popup_8bc7deeed09618fef28b312c0376fa3d = L.popup({
   "maxWidth": "100%",
 });
 
         
             
-                var html_2f12c26f10c512b44d9bb5ab09dbec1d = $(`<div id="html_2f12c26f10c512b44d9bb5ab09dbec1d" style="width: 100.0%; height: 100.0%;">     <b>鍋蓋山 (Nabebutayama)</b><br>     <small>📍 Hyogo</small><br><br>      <div style="       display: flex;       flex-wrap: wrap;       gap: 6px;       justify-content: flex-start;     ">       <i>Add images to Images\Nabebutayama</i>     </div>           </div>`)[0];
-                popup_f4426d8e3bbbf613704c235b394360b5.setContent(html_2f12c26f10c512b44d9bb5ab09dbec1d);
+                var html_5eed124cfcbc499e274cb2033295ca8f = $(`<div id="html_5eed124cfcbc499e274cb2033295ca8f" style="width: 100.0%; height: 100.0%;">     <b>鍋蓋山 (Nabebutayama)</b><br>     <small>📍 Hyogo</small><br><br>     <small>📅 2025-11-16</small><br><br>      <div style="       display: flex;       flex-wrap: wrap;       gap: 6px;       justify-content: flex-start;     ">       <i>Add images to 2025_11_16_Nabebutayama</i>     </div>               <br>         <a href="https://www.instagram.com/p/DRLwKmmEuqJ/?img_index=1"            target="_blank"            rel="noopener noreferrer"            style="text-decoration:none; color:#E4405F; font-weight:500;">           <i class="fab fa-instagram"></i> View on Instagram         </a>              </div>`)[0];
+                popup_8bc7deeed09618fef28b312c0376fa3d.setContent(html_5eed124cfcbc499e274cb2033295ca8f);
             
         
 
-        marker_65b8be4d93ba5410de9c7951c5e6087f.bindPopup(popup_f4426d8e3bbbf613704c235b394360b5)
+        marker_8df7f4b27c5a1a4537b2ba660dfbe949.bindPopup(popup_8bc7deeed09618fef28b312c0376fa3d)
         ;
 
         
     
     
-            var marker_0c4f9707f0d0d7bd0637ef152d1242ac = L.marker(
+            var marker_00bcdb9e5e4bd3bdc0f5770e7a4ec96a = L.marker(
                 [34.718383, 135.177735],
                 {
 }
-            ).addTo(map_3a8b3a4422b8c48ed0ab614e286648ac);
+            ).addTo(map_5fc5036df9ff73868415e4f229a2cfef);
         
     
-        var popup_025e93f9110d2815976b5db762c40a0a = L.popup({
+        var popup_6e1898e18f861e6c8177002209575a13 = L.popup({
   "maxWidth": "100%",
 });
 
         
             
-                var html_384f20dc1b74e5014a2d6011f7187587 = $(`<div id="html_384f20dc1b74e5014a2d6011f7187587" style="width: 100.0%; height: 100.0%;">     <b>再度山 (Futatabiyama)</b><br>     <small>📍 Hyogo</small><br><br>      <div style="       display: flex;       flex-wrap: wrap;       gap: 6px;       justify-content: flex-start;     ">       <i>Add images to Images\Futatabiyama</i>     </div>           </div>`)[0];
-                popup_025e93f9110d2815976b5db762c40a0a.setContent(html_384f20dc1b74e5014a2d6011f7187587);
+                var html_249bca0e5d8359c6f1febef601593d4b = $(`<div id="html_249bca0e5d8359c6f1febef601593d4b" style="width: 100.0%; height: 100.0%;">     <b>再度山 (Futatabiyama)</b><br>     <small>📍 Hyogo</small><br><br>     <small>📅 2025-11-16</small><br><br>      <div style="       display: flex;       flex-wrap: wrap;       gap: 6px;       justify-content: flex-start;     ">       <i>Add images to 2025_11_16_Futatabiyama</i>     </div>               <br>         <a href="https://www.instagram.com/p/DRLwKmmEuqJ/?img_index=6"            target="_blank"            rel="noopener noreferrer"            style="text-decoration:none; color:#E4405F; font-weight:500;">           <i class="fab fa-instagram"></i> View on Instagram         </a>              </div>`)[0];
+                popup_6e1898e18f861e6c8177002209575a13.setContent(html_249bca0e5d8359c6f1febef601593d4b);
             
         
 
-        marker_0c4f9707f0d0d7bd0637ef152d1242ac.bindPopup(popup_025e93f9110d2815976b5db762c40a0a)
+        marker_00bcdb9e5e4bd3bdc0f5770e7a4ec96a.bindPopup(popup_6e1898e18f861e6c8177002209575a13)
         ;
 
         
     
     
-            var marker_bffe5f1f45a789bf287f42b3af1eb041 = L.marker(
+            var marker_5addc455b8c79caa3aacf49df3558d40 = L.marker(
                 [34.935151, 135.623831],
                 {
 }
-            ).addTo(map_3a8b3a4422b8c48ed0ab614e286648ac);
+            ).addTo(map_5fc5036df9ff73868415e4f229a2cfef);
         
     
-        var popup_b7f10b607a490036314d5e3ee770f2d1 = L.popup({
+        var popup_ea3c6e4ae83f1cb35a51744f17574fc4 = L.popup({
   "maxWidth": "100%",
 });
 
         
             
-                var html_9be0129b6cc89f9b4dd366afe78e7fec = $(`<div id="html_9be0129b6cc89f9b4dd366afe78e7fec" style="width: 100.0%; height: 100.0%;">     <b>ポンポン山 (Ponpon)</b><br>     <small>📍 Kyoto / Osaka</small><br><br>      <div style="       display: flex;       flex-wrap: wrap;       gap: 6px;       justify-content: flex-start;     ">       <i>Add images to Images\Ponpon</i>     </div>           </div>`)[0];
-                popup_b7f10b607a490036314d5e3ee770f2d1.setContent(html_9be0129b6cc89f9b4dd366afe78e7fec);
+                var html_d33d8b96f63d9f5a3f8967fdd005fb46 = $(`<div id="html_d33d8b96f63d9f5a3f8967fdd005fb46" style="width: 100.0%; height: 100.0%;">     <b>ポンポン山 (Ponpon)</b><br>     <small>📍 Kyoto</small><br><br>     <small>📅 2025-11-23</small><br><br>      <div style="       display: flex;       flex-wrap: wrap;       gap: 6px;       justify-content: flex-start;     ">       <i>Add images to 2025_11_23_Ponpon</i>     </div>               <br>         <a href="https://www.instagram.com/p/DRbRkUnEkwL"            target="_blank"            rel="noopener noreferrer"            style="text-decoration:none; color:#E4405F; font-weight:500;">           <i class="fab fa-instagram"></i> View on Instagram         </a>              </div>`)[0];
+                popup_ea3c6e4ae83f1cb35a51744f17574fc4.setContent(html_d33d8b96f63d9f5a3f8967fdd005fb46);
             
         
 
-        marker_bffe5f1f45a789bf287f42b3af1eb041.bindPopup(popup_b7f10b607a490036314d5e3ee770f2d1)
+        marker_5addc455b8c79caa3aacf49df3558d40.bindPopup(popup_ea3c6e4ae83f1cb35a51744f17574fc4)
         ;
 
         
     
     
-            var marker_06835f0a935924881cb7856904ab1563 = L.marker(
+            var marker_a9fed0886f92b6f1849c03c97ff3b52f = L.marker(
                 [34.726455, 135.653526],
                 {
 }
-            ).addTo(map_3a8b3a4422b8c48ed0ab614e286648ac);
+            ).addTo(map_5fc5036df9ff73868415e4f229a2cfef);
         
     
-        var popup_3c98e20c9a13327ed3ec850a6ee52c11 = L.popup({
+        var popup_c44fc13bfe48b97ce31149fcc1db030a = L.popup({
   "maxWidth": "100%",
 });
 
         
             
-                var html_51e98ca8fa7d27b60edf75edb9d746f2 = $(`<div id="html_51e98ca8fa7d27b60edf75edb9d746f2" style="width: 100.0%; height: 100.0%;">     <b>飯盛山 (Iimoriyama)</b><br>     <small>📍 Osaka</small><br><br>      <div style="       display: flex;       flex-wrap: wrap;       gap: 6px;       justify-content: flex-start;     ">                <img src="Images/Iimoriyama/IMG_20251129_152511164_HDR.jpg" style="width:200px; margin:4px;">                  <img src="Images/Iimoriyama/IMG_20251129_162952831_HDR.jpg" style="width:200px; margin:4px;">                  <img src="Images/Iimoriyama/IMG_20251129_171515540_HDR.jpg" style="width:200px; margin:4px;">              </div>           </div>`)[0];
-                popup_3c98e20c9a13327ed3ec850a6ee52c11.setContent(html_51e98ca8fa7d27b60edf75edb9d746f2);
+                var html_5bac54dcfe89f5bdf99515395741b374 = $(`<div id="html_5bac54dcfe89f5bdf99515395741b374" style="width: 100.0%; height: 100.0%;">     <b>飯盛山 (Iimoriyama)</b><br>     <small>📍 Osaka</small><br><br>     <small>📅 2025-11-29</small><br><br>      <div style="       display: flex;       flex-wrap: wrap;       gap: 6px;       justify-content: flex-start;     ">                <img src="Images/2025_11_29_Iimoriyama/IMG_20251129_152511164_HDR.jpg" style="width:200px; margin:4px;">                  <img src="Images/2025_11_29_Iimoriyama/IMG_20251129_162952831_HDR.jpg" style="width:200px; margin:4px;">                  <img src="Images/2025_11_29_Iimoriyama/IMG_20251129_171515540_HDR.jpg" style="width:200px; margin:4px;">              </div>               <br>         <a href="https://www.instagram.com/p/DRuYYa-khNb"            target="_blank"            rel="noopener noreferrer"            style="text-decoration:none; color:#E4405F; font-weight:500;">           <i class="fab fa-instagram"></i> View on Instagram         </a>              </div>`)[0];
+                popup_c44fc13bfe48b97ce31149fcc1db030a.setContent(html_5bac54dcfe89f5bdf99515395741b374);
             
         
 
-        marker_06835f0a935924881cb7856904ab1563.bindPopup(popup_3c98e20c9a13327ed3ec850a6ee52c11)
+        marker_a9fed0886f92b6f1849c03c97ff3b52f.bindPopup(popup_c44fc13bfe48b97ce31149fcc1db030a)
         ;
 
         
     
     
-            var marker_145fa564fea8230f91cea6fdd36e567e = L.marker(
+            var marker_e507357210f137b41055e0384ff4a115 = L.marker(
                 [34.687159, 135.526106],
                 {
 }
-            ).addTo(map_3a8b3a4422b8c48ed0ab614e286648ac);
+            ).addTo(map_5fc5036df9ff73868415e4f229a2cfef);
         
     
-        var popup_699e58a08e4c47adaba1b8518a1b8768 = L.popup({
+        var popup_99839515c1dd92abf3a166994585343c = L.popup({
   "maxWidth": "100%",
 });
 
         
             
-                var html_5b69da491e6e9aad1c65a7b464984841 = $(`<div id="html_5b69da491e6e9aad1c65a7b464984841" style="width: 100.0%; height: 100.0%;">     <b>大阪城 夕方散歩 (Osaka Castle Evening Walk)</b><br>     <small>📍 Osaka</small><br><br>      <div style="       display: flex;       flex-wrap: wrap;       gap: 6px;       justify-content: flex-start;     ">                <img src="Images/Osaka_Castle_Evening_Walk/IMG_20251206_191048813.jpg" style="width:200px; margin:4px;">                  <img src="Images/Osaka_Castle_Evening_Walk/IMG_20251206_193830550.jpg" style="width:200px; margin:4px;">              </div>           </div>`)[0];
-                popup_699e58a08e4c47adaba1b8518a1b8768.setContent(html_5b69da491e6e9aad1c65a7b464984841);
+                var html_762b333f2f270bdffb85707432b7696d = $(`<div id="html_762b333f2f270bdffb85707432b7696d" style="width: 100.0%; height: 100.0%;">     <b>大阪城 夕方散歩 (Osaka Castle Evening Walk)</b><br>     <small>📍 Osaka</small><br><br>     <small>📅 2025-12-08</small><br><br>      <div style="       display: flex;       flex-wrap: wrap;       gap: 6px;       justify-content: flex-start;     ">                <img src="Images/2025_12_08_Osaka_Castle_Evening_Walk/IMG_20251206_191048813.jpg" style="width:200px; margin:4px;">                  <img src="Images/2025_12_08_Osaka_Castle_Evening_Walk/IMG_20251206_193830550.jpg" style="width:200px; margin:4px;">              </div>               <br>         <a href="https://www.instagram.com/p/DR95wUSkl2L"            target="_blank"            rel="noopener noreferrer"            style="text-decoration:none; color:#E4405F; font-weight:500;">           <i class="fab fa-instagram"></i> View on Instagram         </a>              </div>`)[0];
+                popup_99839515c1dd92abf3a166994585343c.setContent(html_762b333f2f270bdffb85707432b7696d);
             
         
 
-        marker_145fa564fea8230f91cea6fdd36e567e.bindPopup(popup_699e58a08e4c47adaba1b8518a1b8768)
+        marker_e507357210f137b41055e0384ff4a115.bindPopup(popup_99839515c1dd92abf3a166994585343c)
         ;
 
         
     
     
-            var marker_f531b1ecb69767e88396076ac34db51f = L.marker(
+            var marker_72a867a62cd9c188a7499b4afdaacc7c = L.marker(
                 [35.260368, 135.937386],
                 {
 }
-            ).addTo(map_3a8b3a4422b8c48ed0ab614e286648ac);
+            ).addTo(map_5fc5036df9ff73868415e4f229a2cfef);
         
     
-        var popup_64c6df67df2966cdf709449a287f7da0 = L.popup({
+        var popup_30672443fba1aa45cfd0d1dfad95c982 = L.popup({
   "maxWidth": "100%",
 });
 
         
             
-                var html_ca28136339a433a88448da2630770701 = $(`<div id="html_ca28136339a433a88448da2630770701" style="width: 100.0%; height: 100.0%;">     <b>焼尾山（雪上ハイキング） (Yakeoyama (Snow Hike))</b><br>     <small>📍 Shiga</small><br><br>      <div style="       display: flex;       flex-wrap: wrap;       gap: 6px;       justify-content: flex-start;     ">                <img src="Images/Yakeoyama_(Snow_Hike)/IMG_20251213_101358592_HDR.jpg" style="width:200px; margin:4px;">                  <img src="Images/Yakeoyama_(Snow_Hike)/IMG_20251213_104825630_HDR.jpg" style="width:200px; margin:4px;">                  <img src="Images/Yakeoyama_(Snow_Hike)/IMG_20251213_104904186_HDR.jpg" style="width:200px; margin:4px;">                  <img src="Images/Yakeoyama_(Snow_Hike)/VID_20251213_123729329_exported_5594.jpg" style="width:200px; margin:4px;">              </div>               <br>         <a href="https://www.instagram.com/p/DSNdOzyEgVX"            target="_blank"            rel="noopener noreferrer"            style="text-decoration:none; color:#E4405F; font-weight:500;">           <i class="fab fa-instagram"></i> View on Instagram         </a>              </div>`)[0];
-                popup_64c6df67df2966cdf709449a287f7da0.setContent(html_ca28136339a433a88448da2630770701);
+                var html_fbacd84953d8925a9a5ef75c3c6defd1 = $(`<div id="html_fbacd84953d8925a9a5ef75c3c6defd1" style="width: 100.0%; height: 100.0%;">     <b>焼尾山（雪上ハイキング） (Yakeoyama (Snow Hike))</b><br>     <small>📍 Shiga</small><br><br>     <small>📅 2025-12-13</small><br><br>      <div style="       display: flex;       flex-wrap: wrap;       gap: 6px;       justify-content: flex-start;     ">                <img src="Images/2025_12_13_Yakeoyama__Snow_Hike_/IMG_20251213_101358592_HDR.jpg" style="width:200px; margin:4px;">                  <img src="Images/2025_12_13_Yakeoyama__Snow_Hike_/IMG_20251213_104825630_HDR.jpg" style="width:200px; margin:4px;">                  <img src="Images/2025_12_13_Yakeoyama__Snow_Hike_/IMG_20251213_104904186_HDR.jpg" style="width:200px; margin:4px;">                  <img src="Images/2025_12_13_Yakeoyama__Snow_Hike_/VID_20251213_123729329_exported_5594.jpg" style="width:200px; margin:4px;">              </div>               <br>         <a href="https://www.instagram.com/p/DSNdOzyEgVX"            target="_blank"            rel="noopener noreferrer"            style="text-decoration:none; color:#E4405F; font-weight:500;">           <i class="fab fa-instagram"></i> View on Instagram         </a>              </div>`)[0];
+                popup_30672443fba1aa45cfd0d1dfad95c982.setContent(html_fbacd84953d8925a9a5ef75c3c6defd1);
             
         
 
-        marker_f531b1ecb69767e88396076ac34db51f.bindPopup(popup_64c6df67df2966cdf709449a287f7da0)
+        marker_72a867a62cd9c188a7499b4afdaacc7c.bindPopup(popup_30672443fba1aa45cfd0d1dfad95c982)
         ;
 
         
     
     
-            var marker_cd42dcea821d51e567ba804ce5c51f70 = L.marker(
+            var marker_13c7c48b8e3f5b41fd2a0941c4b1dc40 = L.marker(
                 [35.039248, 135.729152],
                 {
 }
-            ).addTo(map_3a8b3a4422b8c48ed0ab614e286648ac);
+            ).addTo(map_5fc5036df9ff73868415e4f229a2cfef);
         
     
-        var popup_21ce48a8eb565401b7afe879df982012 = L.popup({
+        var popup_46973a63dde882f583928418d78e81bd = L.popup({
   "maxWidth": "100%",
 });
 
         
             
-                var html_62e6359c33164d28c14e5f2b3ab08fc3 = $(`<div id="html_62e6359c33164d28c14e5f2b3ab08fc3" style="width: 100.0%; height: 100.0%;">     <b>金閣寺 (Kinka-Ji (金閣寺))</b><br>     <small>📍 京都</small><br><br>      <div style="       display: flex;       flex-wrap: wrap;       gap: 6px;       justify-content: flex-start;     ">                <img src="Images/Kinka-Ji_(金閣寺)/IMG_20251220_134909543_HDR~3.jpg" style="width:200px; margin:4px;">                  <img src="Images/Kinka-Ji_(金閣寺)/IMG_20251220_153913249_HDR.jpg" style="width:200px; margin:4px;">                  <img src="Images/Kinka-Ji_(金閣寺)/IMG_20251220_154840695_HDR.jpg" style="width:200px; margin:4px;">                  <img src="Images/Kinka-Ji_(金閣寺)/IMG_20251220_155009565_HDR.jpg" style="width:200px; margin:4px;">                  <img src="Images/Kinka-Ji_(金閣寺)/IMG_20251220_163013061_HDR.jpg" style="width:200px; margin:4px;">                  <img src="Images/Kinka-Ji_(金閣寺)/IMG_20251220_163756104_HDR.jpg" style="width:200px; margin:4px;">              </div>               <br>         <a href="https://www.instagram.com/p/DSfk7JCkt4g"            target="_blank"            rel="noopener noreferrer"            style="text-decoration:none; color:#E4405F; font-weight:500;">           <i class="fab fa-instagram"></i> View on Instagram         </a>              </div>`)[0];
-                popup_21ce48a8eb565401b7afe879df982012.setContent(html_62e6359c33164d28c14e5f2b3ab08fc3);
+                var html_130462a91a874ed4159b5c62d531ee5e = $(`<div id="html_130462a91a874ed4159b5c62d531ee5e" style="width: 100.0%; height: 100.0%;">     <b>金閣寺 (Kinkaku-Ji)</b><br>     <small>📍 Kyoto</small><br><br>     <small>📅 2025-12-20</small><br><br>      <div style="       display: flex;       flex-wrap: wrap;       gap: 6px;       justify-content: flex-start;     ">                <img src="Images/2025_12_20_Kinkaku_Ji/IMG_20251220_134909543_HDR~3.jpg" style="width:200px; margin:4px;">                  <img src="Images/2025_12_20_Kinkaku_Ji/IMG_20251220_153913249_HDR.jpg" style="width:200px; margin:4px;">                  <img src="Images/2025_12_20_Kinkaku_Ji/IMG_20251220_154840695_HDR.jpg" style="width:200px; margin:4px;">                  <img src="Images/2025_12_20_Kinkaku_Ji/IMG_20251220_155009565_HDR.jpg" style="width:200px; margin:4px;">                  <img src="Images/2025_12_20_Kinkaku_Ji/IMG_20251220_163013061_HDR.jpg" style="width:200px; margin:4px;">                  <img src="Images/2025_12_20_Kinkaku_Ji/IMG_20251220_163756104_HDR.jpg" style="width:200px; margin:4px;">              </div>               <br>         <a href="https://www.instagram.com/p/DSfk7JCkt4g"            target="_blank"            rel="noopener noreferrer"            style="text-decoration:none; color:#E4405F; font-weight:500;">           <i class="fab fa-instagram"></i> View on Instagram         </a>              </div>`)[0];
+                popup_46973a63dde882f583928418d78e81bd.setContent(html_130462a91a874ed4159b5c62d531ee5e);
             
         
 
-        marker_cd42dcea821d51e567ba804ce5c51f70.bindPopup(popup_21ce48a8eb565401b7afe879df982012)
+        marker_13c7c48b8e3f5b41fd2a0941c4b1dc40.bindPopup(popup_46973a63dde882f583928418d78e81bd)
         ;
 
         
     
     
-            var marker_42f68a82fedfdedae0330a94d8b4bae9 = L.marker(
+            var marker_9cd8f88e9ca0fdcea69bdfd5c28d7727 = L.marker(
                 [35.400601, 136.4072],
                 {
 }
-            ).addTo(map_3a8b3a4422b8c48ed0ab614e286648ac);
+            ).addTo(map_5fc5036df9ff73868415e4f229a2cfef);
         
     
-        var popup_3f7155d977967c097b3a451b6757e994 = L.popup({
+        var popup_8f08aaf9d0ae622fd540b216cc1740f5 = L.popup({
   "maxWidth": "100%",
 });
 
         
             
-                var html_1ee69ab77208a4bd97b09d9d126aa295 = $(`<div id="html_1ee69ab77208a4bd97b09d9d126aa295" style="width: 100.0%; height: 100.0%;">     <b>弥高山 (Yatakayama)</b><br>     <small>📍 Shiga (滋賀県）</small><br><br>      <div style="       display: flex;       flex-wrap: wrap;       gap: 6px;       justify-content: flex-start;     ">       <i>Add images to Images\Yatakayama</i>     </div>               <br>         <a href="https://www.instagram.com/p/DS0DIXlEmyu/"            target="_blank"            rel="noopener noreferrer"            style="text-decoration:none; color:#E4405F; font-weight:500;">           <i class="fab fa-instagram"></i> View on Instagram         </a>              </div>`)[0];
-                popup_3f7155d977967c097b3a451b6757e994.setContent(html_1ee69ab77208a4bd97b09d9d126aa295);
+                var html_538e6ef3103d1528ba227a19c436c3c4 = $(`<div id="html_538e6ef3103d1528ba227a19c436c3c4" style="width: 100.0%; height: 100.0%;">     <b>弥高山 (Yatakayama)</b><br>     <small>📍 Shiga</small><br><br>     <small>📅 2025-12-27</small><br><br>      <div style="       display: flex;       flex-wrap: wrap;       gap: 6px;       justify-content: flex-start;     ">       <i>Add images to 2025_12_27_Yatakayama</i>     </div>               <br>         <a href="https://www.instagram.com/p/DS0DIXlEmyu/"            target="_blank"            rel="noopener noreferrer"            style="text-decoration:none; color:#E4405F; font-weight:500;">           <i class="fab fa-instagram"></i> View on Instagram         </a>              </div>`)[0];
+                popup_8f08aaf9d0ae622fd540b216cc1740f5.setContent(html_538e6ef3103d1528ba227a19c436c3c4);
             
         
 
-        marker_42f68a82fedfdedae0330a94d8b4bae9.bindPopup(popup_3f7155d977967c097b3a451b6757e994)
+        marker_9cd8f88e9ca0fdcea69bdfd5c28d7727.bindPopup(popup_8f08aaf9d0ae622fd540b216cc1740f5)
+        ;
+
+        
+    
+    
+            var marker_a52ec84397505bb786a20c7f0681922f = L.marker(
+                [34.271317, 135.405135],
+                {
+}
+            ).addTo(map_5fc5036df9ff73868415e4f229a2cfef);
+        
+    
+        var popup_0b42ead4ef2371736661c016309a862c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_602323308a6a96ddcff12b8860540aec = $(`<div id="html_602323308a6a96ddcff12b8860540aec" style="width: 100.0%; height: 100.0%;">     <b>はじめカフー粉河駅和歌山県 (Hajime A 100yo Cafe Kokawa)</b><br>     <small>📍 Wakayama</small><br><br>     <small>📅 2026-03-26</small><br><br>      <div style="       display: flex;       flex-wrap: wrap;       gap: 6px;       justify-content: flex-start;     ">       <i>Add images to 2026_03_26_Hajime_A_100yo_Cafe_Kokawa</i>     </div>               <br>         <a href="https://www.instagram.com/p/DWHOswemmnp"            target="_blank"            rel="noopener noreferrer"            style="text-decoration:none; color:#E4405F; font-weight:500;">           <i class="fab fa-instagram"></i> View on Instagram         </a>              </div>`)[0];
+                popup_0b42ead4ef2371736661c016309a862c.setContent(html_602323308a6a96ddcff12b8860540aec);
+            
+        
+
+        marker_a52ec84397505bb786a20c7f0681922f.bindPopup(popup_0b42ead4ef2371736661c016309a862c)
+        ;
+
+        
+    
+    
+            var marker_698ebcb3b0e527b3beab05aa3a60c050 = L.marker(
+                [34.262398, 135.375462],
+                {
+}
+            ).addTo(map_5fc5036df9ff73868415e4f229a2cfef);
+        
+    
+        var popup_61179bd6a03f94742697b113904dc9d4 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5b64d6f7a698a33191f98e6c9ec74e22 = $(`<div id="html_5b64d6f7a698a33191f98e6c9ec74e22" style="width: 100.0%; height: 100.0%;">     <b>紀の川市 (Kinokawa City)</b><br>     <small>📍 Wakayama</small><br><br>     <small>📅 2026-07-07</small><br><br>      <div style="       display: flex;       flex-wrap: wrap;       gap: 6px;       justify-content: flex-start;     ">       <i>Add images to 2026_07_07_Kinokawa_City</i>     </div>               <br>         <a href="https://www.instagram.com/p/Daf11XQGixQ"            target="_blank"            rel="noopener noreferrer"            style="text-decoration:none; color:#E4405F; font-weight:500;">           <i class="fab fa-instagram"></i> View on Instagram         </a>              </div>`)[0];
+                popup_61179bd6a03f94742697b113904dc9d4.setContent(html_5b64d6f7a698a33191f98e6c9ec74e22);
+            
+        
+
+        marker_698ebcb3b0e527b3beab05aa3a60c050.bindPopup(popup_61179bd6a03f94742697b113904dc9d4)
+        ;
+
+        
+    
+    
+            var marker_81aa9650fb20598e47e7899966d8e95c = L.marker(
+                [34.684996, 135.842963],
+                {
+}
+            ).addTo(map_5fc5036df9ff73868415e4f229a2cfef);
+        
+    
+        var popup_1bcbf6743beb2998872875a6399a69ba = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_726e175930a770367b04c3efc98f8746 = $(`<div id="html_726e175930a770367b04c3efc98f8746" style="width: 100.0%; height: 100.0%;">     <b>鹿パーク奈良 (Nara Deer Park)</b><br>     <small>📍 Nara</small><br><br>     <small>📅 2026-02-22</small><br><br>      <div style="       display: flex;       flex-wrap: wrap;       gap: 6px;       justify-content: flex-start;     ">       <i>Add images to 2026_02_22_Nara_Deer_Park</i>     </div>               <br>         <a href="https://www.instagram.com/p/DVSF52PkkfB"            target="_blank"            rel="noopener noreferrer"            style="text-decoration:none; color:#E4405F; font-weight:500;">           <i class="fab fa-instagram"></i> View on Instagram         </a>              </div>`)[0];
+                popup_1bcbf6743beb2998872875a6399a69ba.setContent(html_726e175930a770367b04c3efc98f8746);
+            
+        
+
+        marker_81aa9650fb20598e47e7899966d8e95c.bindPopup(popup_1bcbf6743beb2998872875a6399a69ba)
+        ;
+
+        
+    
+    
+            var marker_f875092a092012f8ee1dc40262c7f421 = L.marker(
+                [34.678537, 135.678925],
+                {
+}
+            ).addTo(map_5fc5036df9ff73868415e4f229a2cfef);
+        
+    
+        var popup_d8d4c7f66f327d22bfaacf2f1fd20594 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_613371981b9dc2bf8f3a77585b4c8a09 = $(`<div id="html_613371981b9dc2bf8f3a77585b4c8a09" style="width: 100.0%; height: 100.0%;">     <b>生駒山 (Mt. Ikoma)</b><br>     <small>📍 Nara</small><br><br>     <small>📅 2026-01-11</small><br><br>      <div style="       display: flex;       flex-wrap: wrap;       gap: 6px;       justify-content: flex-start;     ">       <i>Add images to 2026_01_11_Mt__Ikoma</i>     </div>               <br>         <a href="https://www.instagram.com/p/DTZL82UEu55/?img_index=3"            target="_blank"            rel="noopener noreferrer"            style="text-decoration:none; color:#E4405F; font-weight:500;">           <i class="fab fa-instagram"></i> View on Instagram         </a>              </div>`)[0];
+                popup_d8d4c7f66f327d22bfaacf2f1fd20594.setContent(html_613371981b9dc2bf8f3a77585b4c8a09);
+            
+        
+
+        marker_f875092a092012f8ee1dc40262c7f421.bindPopup(popup_d8d4c7f66f327d22bfaacf2f1fd20594)
+        ;
+
+        
+    
+    
+            var marker_8f0ef4b686d0dc93b5b2322a1ecfc76b = L.marker(
+                [34.815856, 135.766836],
+                {
+}
+            ).addTo(map_5fc5036df9ff73868415e4f229a2cfef);
+        
+    
+        var popup_b89625a7a839b7f03e176c577db39179 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8f59b4e851288de94c0dcce313d9f4cc = $(`<div id="html_8f59b4e851288de94c0dcce313d9f4cc" style="width: 100.0%; height: 100.0%;">     <b>京田辺市 (Kyotanabe City)</b><br>     <small>📍 Kyoto</small><br><br>     <small>📅 2025-11-02</small><br><br>      <div style="       display: flex;       flex-wrap: wrap;       gap: 6px;       justify-content: flex-start;     ">       <i>Add images to 2025_11_02_Kyotanabe_City</i>     </div>               <br>         <a href="https://www.instagram.com/p/DQl2lgpEmpA"            target="_blank"            rel="noopener noreferrer"            style="text-decoration:none; color:#E4405F; font-weight:500;">           <i class="fab fa-instagram"></i> View on Instagram         </a>              </div>`)[0];
+                popup_b89625a7a839b7f03e176c577db39179.setContent(html_8f59b4e851288de94c0dcce313d9f4cc);
+            
+        
+
+        marker_8f0ef4b686d0dc93b5b2322a1ecfc76b.bindPopup(popup_b89625a7a839b7f03e176c577db39179)
         ;
 
         
